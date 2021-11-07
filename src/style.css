@@ -1,0 +1,9 @@
+*,
+*::before,
+*::after {
+  font-family: sans-serif;
+}
+
+body {
+  color: red;
+}

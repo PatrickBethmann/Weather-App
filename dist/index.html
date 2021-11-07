@@ -1,1 +1,39 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Weather App</title><script defer="defer" src="main.js"></script></head><body>Hello world</body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Weather App
+    </title>
+<script defer src="main.js"></script></head>
+
+<body>
+    <form class="search-form">
+        <button tpye="submit" disabled hidden></button>
+        <div>
+            <label for="location">Location</label>
+            <input type="text" id="location">
+        </div>
+
+        <div class="unit-selector">
+            <div>
+                <label for="metric">Metric</label>
+                <input type="radio" id="metric" name="unit" checked="checked">
+            </div>
+
+            <div>
+                <label for="imperial">Imperial</label>
+                <input type="radio" id="imperial" name="unit" value="imperial">
+            </div>
+        </div>
+
+        <button class="search-button" type="button">
+            Search
+        </button>
+    </form>
+</body>
+
+</html>

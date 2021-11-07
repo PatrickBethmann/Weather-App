@@ -5,5 +5,27 @@
 }
 
 body {
-  color: red;
+  min-height: 100vh;
+  background-image: url(./background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.search-form {
+  background-color: rgba(255, 255, 255, 0.329);
+  width: fit-content;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.unit-selector {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }

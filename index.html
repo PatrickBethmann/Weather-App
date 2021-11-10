@@ -11,29 +11,53 @@
 <script defer src="main.js"></script></head>
 
 <body>
-    <form class="search-form">
-        <button tpye="submit" disabled hidden></button>
-        <div>
-            <label for="location">Location</label>
-            <input type="text" id="location">
+    <div class="weather-current">
+        <div class="weather-info transparent-background">
+            <h1 class="weather-info-status">Status</h1>
+            <h2 class="weather-info-location">Location</h2>
+            <h2 class="weather-info-date">Date</h2>
+            <h2 class="weather-info-time">Time</h2>
+            <h1 class="weather-info-temperature">Temperature</h1>
+            <h3 class="weather-info-temperature-units">Units</h3>
+            <img class="weather-info-symbol">
+
+            <form class="search-form">
+                <button tpye="submit" disabled hidden></button>
+                <div>
+                    <label for="location">Location</label>
+                    <input type="text" id="location">
+                </div>
+
+                <div class="unit-selector">
+                    <div>
+                        <label for="metric">Metric</label>
+                        <input type="radio" id="metric" name="unit" checked="checked">
+                    </div>
+
+                    <div>
+                        <label for="imperial">Imperial</label>
+                        <input type="radio" id="imperial" name="unit" value="imperial">
+                    </div>
+                </div>
+
+                <button class="search-button" type="button">
+                    Search
+                </button>
+            </form>
         </div>
+        <div class="weather-details transparent-background">
 
-        <div class="unit-selector">
-            <div>
-                <label for="metric">Metric</label>
-                <input type="radio" id="metric" name="unit" checked="checked">
-            </div>
-
-            <div>
-                <label for="imperial">Imperial</label>
-                <input type="radio" id="imperial" name="unit" value="imperial">
-            </div>
         </div>
+    </div>
 
-        <button class="search-button" type="button">
-            Search
-        </button>
-    </form>
+    <div class="weather-forecast transparent-background">
+        Hello
+    </div>
+
+
+
+
+
 </body>
 
 </html>

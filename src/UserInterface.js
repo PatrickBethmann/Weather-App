@@ -9,6 +9,7 @@ searchButton.addEventListener('click', () => {
   const currentUnit = document.querySelector('.unit-selector input:checked').value;
 
   getWeather(locationInput.value, currentUnit).then((response) => {
+    console.log('hello');
     Display.displayWeather(response);
   });
 });

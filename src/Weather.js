@@ -7,10 +7,12 @@ export default class Weather {
     this.time = 'Time';
     this.temperature = weatherData.main.temp;
 
-    console.log(this);
+    // Details
+    this.humidity = weatherData.main.humidity;
+    this.windSpeed = weatherData.wind.speed;
   }
 
   printWeather() {
-    console.log(this.status);
+    console.log(this.status, this.location, this.temperature);
   }
 }

@@ -12,7 +12,7 @@
 
 <body>
     <div class="weather-current">
-        <div class="weather-info transparent-background">
+        <div class="weather-info section transparent-background">
             <h1 class="weather-info-status">Status</h1>
             <h2 class="weather-info-location">Location</h2>
             <h2 class="weather-info-date">Date</h2>
@@ -23,7 +23,7 @@
 
             <form class="search-form">
                 <button tpye="submit" disabled hidden></button>
-                <div>
+                <div class="location">
                     <label for="location">Location</label>
                     <input type="text" id="location">
                 </div>
@@ -31,7 +31,7 @@
                 <div class="unit-selector">
                     <div>
                         <label for="metric">Metric</label>
-                        <input type="radio" id="metric" name="unit" checked="checked">
+                        <input type="radio" id="metric" name="unit" value="metric" checked="checked">
                     </div>
 
                     <div>
@@ -45,13 +45,21 @@
                 </button>
             </form>
         </div>
-        <div class="weather-details transparent-background">
+        <div class="weather-details section transparent-background">
+            <div class="weather-detail">
+                <h1>Humidity</h1>
+                <h1 class="weather-details-humidity"></h1>
+            </div>
+            <div class="weather-detail">
+                <h1>Wind Speed</p>
+                    <h1 class="weather-details-windspeed"></h1>
+            </div>
 
         </div>
     </div>
 
-    <div class="weather-forecast transparent-background">
-        Hello
+    <div class="weather-forecast section transparent-background">
+        <p>WEATHER FORECASTE CURRENTLY UNAVAILABLE</p>
     </div>
 
 

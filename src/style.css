@@ -44,6 +44,10 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+.weather-info div {
+  display: flex;
+  flex-direction: row;
+}
 .weather-details {
   display: flex;
   flex-direction: column;

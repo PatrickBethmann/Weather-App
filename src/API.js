@@ -6,8 +6,9 @@ async function getWeather(location, units = 'metric') {
   );
 
   let weatherData = await response.json();
+  console.log(weatherData);
 
-  let weatherObject = new Weather(weatherData);
+  let weatherObject = new Weather(weatherData, units);
   return Promise.resolve(weatherObject);
 }
 

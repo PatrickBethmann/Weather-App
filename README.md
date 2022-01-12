@@ -1,7 +1,14 @@
-# Weather App
+<h1 align="center">Weather-App</h1>
 
-Weather App Project for The Odins Project
+# Description
 
-Trying to work with API Calls to get the weather date :)
+Basic Weather-App to learn how to use APIs.
+Obviously not finished :)
+
+View the current build at:
 
 https://patrickbethmann.github.io/Weather-App/
+
+**Patrick Bethmann**
+
+-[Profile](https://github.com/PatrickBethmann) -[Email](mailto:patrickbethmann@outlook.de)

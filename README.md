@@ -9,6 +9,11 @@ View the current build at:
 
 https://patrickbethmann.github.io/Weather-App/
 
+## Preview
+
+![](/screenshots/thumbnail.PNG)
+
+
 **Patrick Bethmann**
 
 -[Profile](https://github.com/PatrickBethmann) -[Email](mailto:patrickbethmann@outlook.de)
